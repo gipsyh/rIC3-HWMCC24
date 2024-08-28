@@ -6,21 +6,20 @@ rIC3 is competitive, as my experiments show that it can solve 299 out of the tot
 # Usage
 For models in aiger format:
 ```
-rIC3 <aiger model path> [certifaiger path]
+rIC3 <aiger model path> [certification path]
 ```
-If the certifier path is not specified, rIC3 will not output the witness circuit or the counter-example.
+If the certification path is not specified, rIC3 will not output the certification in [certifaiger](https://github.com/Froleyks/certifaiger) format or the counter-example in [aiger](https://github.com/arminbiere/aiger) witness format.
 
 For models in btor2 format:
 ```
 rIC3 <btor2 model path>
 ```
 For now, rIC3 does not support outputting certification or the counter-example of btor2 models.
+
 # Authers
 Yuheng Su, gipsyh.icu@gmail.com
 
-University of Chinese Academy of Sciences
-
-Institute of Software, Chinese Academy of Sciences
+University of Chinese Academy of Sciences; Institute of Software, Chinese Academy of Sciences
  
 Qiusong Yang, qiusong@iscas.ac.cn
 
