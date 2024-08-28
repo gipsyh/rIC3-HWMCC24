@@ -14,7 +14,7 @@ For models in btor2 format:
 ```
 rIC3 <btor2 model path>
 ```
-For now, rIC3 does not support outputting certification or the counter-example of btor2 models.
+For btor model, the model file name should be suffixed with **.btor** or **.btor2**, otherwise, it will be recognized as an aiger model. rIC3 does not support outputting certification or the counter-example of btor2 models.
 
 # Authers
 Yuheng Su, gipsyh.icu@gmail.com
