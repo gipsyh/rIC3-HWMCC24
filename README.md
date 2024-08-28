@@ -4,6 +4,8 @@ rIC3 model checker for Hardware Model Checking Competition 2024([HWMCC'24](https
 rIC3 is competitive, as our experiments show that it can solve 299 out of the total 324 cases in the bv track of HWMCC'20, which is 37 more cases solved than the most solved checker abc-superprove in HWMCC'20.
 
 # Usage
+The default configuration is the portfolio of 16 threads by using the IC3, BMC and K-induction algorithms.
+
 For models in aiger format:
 ```
 rIC3 <aiger model path> [certification path]
