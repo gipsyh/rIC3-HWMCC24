@@ -1,7 +1,5 @@
 # rIC3-HWMCC24
-rIC3 model checker for Hardware Model Checking Competition 2024([HWMCC'24](https://hwmcc.github.io/2024)) submission.
-
-Our experiments show that it can solve 299 out of the total 324 cases in the bv track of [HWMCC'20](https://fmv.jku.at/hwmcc20/hwmcc20slides.pdf), which is 37 more cases than the most solved checker, abc-superprove, in HWMCC'20.
+rIC3 model checker for Hardware Model Checking Competition 2024([HWMCC'24](https://hwmcc.github.io/2024)) submission. It is prepared to participate in the word-level without arrays track and the bit-level track.
 
 # Usage
 The default configuration is the portfolio of 16 threads by using the IC3, BMC and K-induction algorithms.
