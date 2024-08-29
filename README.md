@@ -1,5 +1,5 @@
 # rIC3-HWMCC24
-rIC3 model checker for Hardware Model Checking Competition 2024([HWMCC'24](https://hwmcc.github.io/2024)) submission. It is prepared to participate in the word-level without arrays track and the bit-level track.
+rIC3 model checker for Hardware Model Checking Competition 2024([HWMCC'24](https://hwmcc.github.io/2024)) submission. It is prepared to participate in the bit-level track and the word-level without arrays track.
 
 # Usage
 The default configuration is the portfolio of 16 threads by using the IC3, BMC and K-induction algorithms.
