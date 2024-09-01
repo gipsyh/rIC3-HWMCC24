@@ -8,6 +8,9 @@ For models in aiger format:
 ```
 rIC3 <aiger model path> [certification path]
 ```
+
+**Please note that rIC3 expects the input aiger model to be reencoded by default, so it is better to input the aig model rather than the aag model.**
+
 If the certification path is not specified, rIC3 will not output the certification in [certifaiger](https://github.com/Froleyks/certifaiger) format or the counter-example in [aiger](https://github.com/arminbiere/aiger) witness format.
 
 For models in btor2 format:
